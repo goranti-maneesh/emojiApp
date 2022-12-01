@@ -39,7 +39,7 @@ class EmojiGame extends Component {
       newTopScore = currentScore
     }
 
-    this.setState({topScore: newTopScore})
+    this.setState({topScore: newTopScore, isGameInProgress: false})
   }
 
   clickEmoji = id => {
